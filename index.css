@@ -29,3 +29,20 @@ section {
 .main-img {
     width: 100%;
 }
+
+h2 {
+    margin-top: 0;
+}
+
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover{
+    color: #d4b44c;
+}
+
+a:active{
+    color: #d4b44c;
+}
