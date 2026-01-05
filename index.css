@@ -21,3 +21,11 @@ h3 {
     font-size: 1.25rem;
     margin: 0;
 }
+
+section {
+    padding: 45px 0px;
+}
+
+.main-img {
+    width: 100%;
+}
