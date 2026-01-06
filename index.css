@@ -8,10 +8,13 @@ body{
 
 /* typography */
 
+h1, h3 {
+    margin: 0;
+}
+
 h1{
     color: whitesmoke;
     font-size: 36px;
-    margin: 0;
 }
 
 h2{
@@ -21,7 +24,6 @@ h2{
 h3{
     color: #d0aaff;
     font-size: 20px;
-    margin:0;
 }
 
 /* links */
@@ -31,23 +33,20 @@ a{
     text-decoration: underline dotted; 
 }
 
-a:hover{
-    color: #d4b44c;
-}
-
-a:active{
+a:hover, a:active {
     color: #d4b44c;
 }
 
 /* layouts */
 
-header{
-    background-color: #5f29a3;
+header,
+section,
+footer {
     padding: 45px 0;
 }
 
-section{
-    padding: 45px 0;
+header, .section-two{
+    background-color: #5f29a3;
 }
 
 .container{
@@ -61,8 +60,6 @@ section{
 
 .section-two {
     color: whitesmoke;
-    background-color: #5f29a3;
-
 }
 
 .feature-img{
@@ -77,7 +74,6 @@ section{
 
 footer {
     text-align: center;
-    padding: 45px 0;
     color: #5f29a3;
 }
 
